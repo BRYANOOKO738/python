@@ -22,7 +22,7 @@ except LookupError:
     nltk.download('wordnet')
     nltk.download('punkt')
 
-# US Presidents dataset with key information
+# US Presidents dataset witjh key information
 presidents_data = [
     {"number": 1, "name": "George Washington", "years": "1789-1797", "party": "No Party", "vice_president": "John Adams", "preceded_by": "None (first president)", "succeeded_by": "John Adams"},
     {"number": 2, "name": "John Adams", "years": "1797-1801", "party": "Federalist", "vice_president": "Thomas Jefferson", "preceded_by": "George Washington", "succeeded_by": "Thomas Jefferson"},
